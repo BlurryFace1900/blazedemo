@@ -15,18 +15,4 @@
       </class> <!-- blazedemosetup.BlazeDemoDriverSetup -->
     </classes>
   </test> <!-- BlazeDemoChrome(failed) -->
-  <test thread-count="1" name="BlazeDemoFirefox(failed)">
-    <parameter name="browser" value="firefox"/>
-    <parameter name="from" value="Paris"/>
-    <parameter name="to" value="Berlin"/>
-    <classes>
-      <class name="blazedemosetup.BlazeDemoDriverSetup">
-        <methods>
-          <include name="dismantle"/>
-          <include name="setup"/>
-          <include name="destinationOfWeek"/>
-        </methods>
-      </class> <!-- blazedemosetup.BlazeDemoDriverSetup -->
-    </classes>
-  </test> <!-- BlazeDemoFirefox(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

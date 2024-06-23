@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-23T12:14:48 IST" name="TestSuite" finished-at="2024-06-23T12:16:21 IST" duration-ms="93109">
+  <suite started-at="2024-06-23T13:13:44 IST" name="TestSuite" finished-at="2024-06-23T13:14:01 IST" duration-ms="16989">
     <groups>
     </groups>
-    <test started-at="2024-06-23T12:14:48 IST" name="BlazeDemoChrome" finished-at="2024-06-23T12:15:08 IST" duration-ms="20523">
+    <test started-at="2024-06-23T13:13:44 IST" name="BlazeDemoChrome" finished-at="2024-06-23T13:14:01 IST" duration-ms="16989">
       <class name="blazedemosetup.BlazeDemoDriverSetup">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:14:48 IST" name="setup" finished-at="2024-06-23T12:14:57 IST" duration-ms="9622" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:13:44 IST" name="setup" finished-at="2024-06-23T13:13:54 IST" duration-ms="10001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="header()[pri:1, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:14:57 IST" name="header" finished-at="2024-06-23T12:14:59 IST" duration-ms="1843" status="PASS">
+        <test-method signature="header()[pri:1, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:13:54 IST" name="header" finished-at="2024-06-23T13:13:54 IST" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- header -->
-        <test-method signature="destinationOfWeek()[pri:2, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:14:59 IST" name="destinationOfWeek" finished-at="2024-06-23T12:15:03 IST" duration-ms="3540" status="FAIL">
+        <test-method signature="destinationOfWeek()[pri:2, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:13:54 IST" name="destinationOfWeek" finished-at="2024-06-23T13:13:57 IST" duration-ms="2725" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -69,7 +69,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destinationOfWeek -->
-        <test-method signature="purchase(java.lang.String,java.lang.String)[pri:3, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:15:03 IST" name="purchase" finished-at="2024-06-23T12:15:05 IST" duration-ms="2210" status="PASS">
+        <test-method signature="purchase(java.lang.String,java.lang.String)[pri:3, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:13:57 IST" name="purchase" finished-at="2024-06-23T13:13:59 IST" duration-ms="1494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,121 +85,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchase -->
-        <test-method signature="chooseFlights()[pri:4, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:15:05 IST" name="chooseFlights" finished-at="2024-06-23T12:15:06 IST" duration-ms="902" status="PASS">
+        <test-method signature="chooseFlights()[pri:4, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:13:59 IST" name="chooseFlights" finished-at="2024-06-23T13:14:00 IST" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseFlights -->
-        <test-method signature="flightsDetail()[pri:5, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:15:06 IST" name="flightsDetail" finished-at="2024-06-23T12:15:07 IST" duration-ms="1191" status="PASS">
+        <test-method signature="flightsDetail()[pri:5, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:14:00 IST" name="flightsDetail" finished-at="2024-06-23T13:14:00 IST" duration-ms="797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightsDetail -->
-        <test-method signature="confirmation()[pri:6, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:15:07 IST" name="confirmation" finished-at="2024-06-23T12:15:07 IST" duration-ms="50" status="PASS">
+        <test-method signature="confirmation()[pri:6, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:14:00 IST" name="confirmation" finished-at="2024-06-23T13:14:01 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmation -->
-        <test-method is-config="true" signature="dismantle()[pri:0, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T12:15:07 IST" name="dismantle" finished-at="2024-06-23T12:15:08 IST" duration-ms="1033" status="PASS">
+        <test-method is-config="true" signature="dismantle()[pri:0, instance:blazedemosetup.BlazeDemoDriverSetup@76b1e9b8]" started-at="2024-06-23T13:14:01 IST" name="dismantle" finished-at="2024-06-23T13:14:01 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dismantle -->
       </class> <!-- blazedemosetup.BlazeDemoDriverSetup -->
     </test> <!-- BlazeDemoChrome -->
-    <test started-at="2024-06-23T12:15:08 IST" name="BlazeDemoFirefox" finished-at="2024-06-23T12:16:21 IST" duration-ms="72498">
-      <class name="blazedemosetup.BlazeDemoDriverSetup">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:15:08 IST" name="setup" finished-at="2024-06-23T12:16:04 IST" duration-ms="55909" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="header()[pri:1, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:04 IST" name="header" finished-at="2024-06-23T12:16:07 IST" duration-ms="2537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- header -->
-        <test-method signature="destinationOfWeek()[pri:2, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:07 IST" name="destinationOfWeek" finished-at="2024-06-23T12:16:12 IST" duration-ms="4891" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-New Tab did not open expected [2] but found [1]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-New Tab did not open expected [2] but found [1]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at blazedemopages.BlazeDemoDestinationOfWeekPage.assertNewTab(BlazeDemoDestinationOfWeekPage.java:34)
-at blazedemosetup.BlazeDemoDriverSetup.destinationOfWeek(BlazeDemoDriverSetup.java:75)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destinationOfWeek -->
-        <test-method signature="purchase(java.lang.String,java.lang.String)[pri:3, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:12 IST" name="purchase" finished-at="2024-06-23T12:16:15 IST" duration-ms="2905" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Paris]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Berlin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- purchase -->
-        <test-method signature="chooseFlights()[pri:4, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:15 IST" name="chooseFlights" finished-at="2024-06-23T12:16:16 IST" duration-ms="961" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chooseFlights -->
-        <test-method signature="flightsDetail()[pri:5, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:16 IST" name="flightsDetail" finished-at="2024-06-23T12:16:17 IST" duration-ms="1021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightsDetail -->
-        <test-method signature="confirmation()[pri:6, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:17 IST" name="confirmation" finished-at="2024-06-23T12:16:17 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- confirmation -->
-        <test-method is-config="true" signature="dismantle()[pri:0, instance:blazedemosetup.BlazeDemoDriverSetup@353352b6]" started-at="2024-06-23T12:16:17 IST" name="dismantle" finished-at="2024-06-23T12:16:21 IST" duration-ms="4197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dismantle -->
-      </class> <!-- blazedemosetup.BlazeDemoDriverSetup -->
-    </test> <!-- BlazeDemoFirefox -->
   </suite> <!-- TestSuite -->
 </testng-results>
