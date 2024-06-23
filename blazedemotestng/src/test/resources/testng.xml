@@ -11,14 +11,5 @@
 			</class>
 		</classes>
 	</test>
-	<test name="BlazeDemoFirefox">
-		<!--parameter name="searchKey" value="UK" /-->
-		<parameter name="browser" value="firefox" />
-		<parameter name="from" value="Paris" />
-		<parameter name="to" value="Berlin" />
-		<classes>
-			<class name="blazedemosetup.BlazeDemoDriverSetup">
-			</class>
-		</classes>
-	</test>
+
 </suite>
