@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="3" >
+	<test name="BlazeDemoFirefox">
+		<!--parameter name="searchKey" value="UK" /-->
+		<parameter name="browser" value="firefox" />
+		<parameter name="from" value="Mexico City" />
+		<parameter name="to" value="London" />
+		<classes>
+			<class name="blazedemosetup.BlazeDemoDriverSetup">
+			</class>
+		</classes>
+	</test>
+	<test name="BlazeDemoChrome">
+		<!--parameter name="searchKey" value="UK" /-->
+		<parameter name="browser" value="chrome" />
+		<parameter name="from" value="Paris" />
+		<parameter name="to" value="Berlin" />
+		<classes>
+			<class name="blazedemosetup.BlazeDemoDriverSetup">
+			</class>
+		</classes>
+	</test>
+	<test name="BlazeDemoEdge">
+		<!--parameter name="searchKey" value="UK" /-->
+		<parameter name="browser" value="edge" />
+		<parameter name="from" value="San Diego" />
+		<parameter name="to" value="Dublin" />
+		<classes>
+			<class name="blazedemosetup.BlazeDemoDriverSetup">
+			</class>
+		</classes>
+	</test>
+</suite>
